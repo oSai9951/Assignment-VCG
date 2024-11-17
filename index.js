@@ -1,6 +1,6 @@
-function evenInArray(arrays) {
+function findEvenInArray(arrays) {
     let count = 0;
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arrays.length; i++) {
 
         if (arrays[i] % 2 === 0) {
             console.log(arrays[i] + " is an even number");
@@ -14,4 +14,4 @@ function evenInArray(arrays) {
 }
 
 let randomArr = [2, 17, 9, 10, 36, 64, 93, 92]
-evenInArray(randomArr)
+findEvenInArray(randomArr)
