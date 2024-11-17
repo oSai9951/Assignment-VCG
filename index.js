@@ -1,9 +1,9 @@
-function evenInArray(arr) {
+function evenInArray(arrays) {
     let count = 0;
     for (let i = 0; i < arr.length; i++) {
 
-        if (arr[i] % 2 === 0) {
-            console.log(arr[i] + " is an even number");
+        if (arrays[i] % 2 === 0) {
+            console.log(arrays[i] + " is an even number");
             count++
         }
         else {
